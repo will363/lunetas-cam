@@ -1,7 +1,7 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 
-admin.initializeApp();
+admin.initializeApp(); 
 
 exports.lowercaseProductName = functions.firestore.document('/products/{documentId}')
     .onCreate((snap, context) => {

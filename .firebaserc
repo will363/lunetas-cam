@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "salinaka-ecommerce"
-  }
+    "default": "lunetas-cam-e9b0b",
+    "staging": "lunetas-cam-e9b0b"
+  },
+  "targets": {}
 }
